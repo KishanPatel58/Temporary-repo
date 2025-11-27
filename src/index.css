@@ -1,0 +1,36 @@
+@import "tailwindcss";
+/* font declarations */
+@font-face {
+  font-family: cherry;
+  src: url('../src/fonts/CherryCreamSoda-Regular.woff2');
+}
+@font-face {
+  font-family: delius;
+  src: url('../src/fonts/Delius-Regular.woff2');
+}
+@font-face {
+  font-family: googleSansCode;
+  src: url('../src/fonts/GoogleSansCode-VariableFont_wght.woff2');
+}
+@font-face {
+  font-family: googlesansitalic;
+  src: url('../src/fonts/GoogleSansCode-Italic-VariableFont_wght.woff2');
+}
+@font-face {
+  font-family: tiktokSans;
+  src: url('../src/fonts/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2');
+}
+/* css boilder plate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  list-style: none;
+  text-decoration: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
